@@ -14,7 +14,7 @@ Danh sách thành viên:
 Ngoài ra, hệ thống được thiết kế với giao diện thân thiện, tối ưu trải nghiệm người dùng.
 - Link Figma: https://www.figma.com/design/QhxCwHXB8MsKZiaOjSAN80/TKW?node-id=0-1&t=WhoA0maHqkiBusVz-1
 - Link GitHub: 
--Hướng dẫn chạy local:
+- Hướng dẫn chạy local:
 + cd ute-stationery
 + npm install
 + npm run dev
