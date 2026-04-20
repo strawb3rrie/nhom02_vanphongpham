@@ -1,4 +1,4 @@
-//nhớ dùng lệnh cd vào trong thư muc ute-stationery trước khi chạy lệnh
+dùng lệnh cd vào trong thư muc ute-stationery trước khi chạy lệnh
 cd ute-stationery
 npm install
 npm run dev
