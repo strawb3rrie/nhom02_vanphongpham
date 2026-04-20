@@ -1,0 +1,1330 @@
+[
+  {
+    "id": 1,
+    "name": "Bút Bi Mực Nước Thiên Long",
+    "slug": "but-bi-muc-nuoc-thien-long-1",
+    "category": "but-viet",
+    "price": 10000,
+    "images": [
+      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1600751550112-4209be589cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút bi mực nước với ngòi mảnh 0.5mm, cho nét chữ thanh thoát và đều mực.",
+    "specs": {
+      "Thương hiệu": "Thiên Long",
+      "Kích thước ngòi": "0.5 mm"
+    },
+    "rating": 4.8,
+    "reviewCount": 150,
+    "stock": 500,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "price": 9000
+      },
+      {
+        "minQty": 100,
+        "price": 8500
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bút Gel Pentel Energel",
+    "slug": "but-gel-pentel-energel-2",
+    "category": "but-viet",
+    "price": 25000,
+    "images": [
+      "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1581431886211-6b932f8367f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1649019489428-70f505daacd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút gel cao cấp từ Pentel, mực mau khô cực kỳ thích hợp.",
+    "specs": {
+      "Thương hiệu": "Pentel",
+      "Kích thước ngòi": "0.7 mm"
+    },
+    "rating": 4.9,
+    "reviewCount": 320,
+    "stock": 200,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 22000
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Bút Chì Kim Faber-Castell",
+    "slug": "but-chi-kim-faber-castell-3",
+    "category": "but-viet",
+    "price": 45000,
+    "images": [
+      "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút chì kim thiết kế sang trọng, bọc đệm cao su êm ái.",
+    "specs": {
+      "Thương hiệu": "Faber-Castell",
+      "Cỡ ngòi": "0.5 mm"
+    },
+    "rating": 4.7,
+    "reviewCount": 89,
+    "stock": 150,
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Bút Dạ Quang Staedtler",
+    "slug": "but-da-quang-staedtler-4",
+    "category": "but-viet",
+    "price": 18000,
+    "images": [
+      "https://images.unsplash.com/photo-1585997631913-896180ae8acb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1623697899811-f2403f50685e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1654931800100-2ecf6eee7c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Màu mực sáng, bắt mắt, không làm lem chữ in. Đầu vát thông minh.",
+    "specs": {
+      "Thương hiệu": "Staedtler",
+      "Màu sắc": "Vàng, Xanh lá"
+    },
+    "rating": 4.5,
+    "reviewCount": 42,
+    "stock": 300,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Bút Lông Bảng Deli",
+    "slug": "but-long-bang-deli-5",
+    "category": "but-viet",
+    "price": 12000,
+    "images": [
+      "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1554757387-fa0367573d09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút dạ viết bảng trắng cực dễ lau, nét viết đậm rực rỡ.",
+    "specs": {
+      "Thương hiệu": "Deli",
+      "Đơn vị tính": "Cây"
+    },
+    "rating": 4.6,
+    "reviewCount": 112,
+    "stock": 400,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "price": 10500
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Bút Máy Lamy Safari",
+    "slug": "but-may-lamy-safari-6",
+    "category": "but-viet",
+    "price": 550000,
+    "images": [
+      "https://images.unsplash.com/photo-1518674660708-0e2c0473e68e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1599008633840-052c7f756385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501959181532-7d2a3c064642?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút máy quốc dân từ Đức, dễ cầm, ngòi trơn mượt không tắc mực.",
+    "specs": {
+      "Thương hiệu": "Lamy",
+      "Ngòi": "M mạ crom"
+    },
+    "rating": 5,
+    "reviewCount": 425,
+    "stock": 40,
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "Bút Xóa Kéo Plus",
+    "slug": "but-xoa-keo-plus-7",
+    "category": "but-viet",
+    "price": 22000,
+    "images": [
+      "https://images.unsplash.com/photo-1448471237638-f8ccc7d5ac9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1591195852468-03a01d1375d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút xóa kéo dính chắc, độ che phủ hoàn hảo 1 cuộn 12 met.",
+    "specs": {
+      "Thương hiệu": "Plus",
+      "Kích thước": "5mm x 12m"
+    },
+    "rating": 4.8,
+    "reviewCount": 190,
+    "stock": 520,
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Bút Chì Gỗ HB Hồng Hà",
+    "slug": "but-chi-go-hb-hong-ha-8",
+    "category": "but-viet",
+    "price": 5000,
+    "images": [
+      "https://images.unsplash.com/photo-1601321268954-22646044f7d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1557487307-8dc8ec048eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1510070009289-b5bc34383727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bút chì gỗ cao cấp ngòi chuốt không gãy, dễ tẩy.",
+    "specs": {
+      "Thương hiệu": "Hồng Hà",
+      "Loại ngòi": "HB"
+    },
+    "rating": 4.4,
+    "reviewCount": 35,
+    "stock": 1000,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bút Lông Màu 12 Cây Colokit",
+    "slug": "but-long-mau-12-cay-colokit-9",
+    "category": "but-viet",
+    "price": 45000,
+    "originalPrice": 50000,
+    "images": [
+      "https://images.unsplash.com/photo-1531087131490-07836ca4341d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1698067942087-53f552fe2f59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506188232657-23c9c893ac2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bộ bút lông tô màu 12 cây, an toàn cho trẻ em.",
+    "specs": {
+      "Thương hiệu": "Thiên Long",
+      "Số lượng": "12 màu"
+    },
+    "rating": 4.5,
+    "reviewCount": 160,
+    "stock": 250,
+    "featured": true
+  },
+  {
+    "id": 10,
+    "name": "Bộ Dạ Quang Pastel To",
+    "slug": "bo-da-quang-pastel-to-10",
+    "category": "but-viet",
+    "price": 85000,
+    "images": [
+      "https://images.unsplash.com/photo-1587303988571-c5563c0bceab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1648822145238-16e13a1591da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1523289333742-be1143f6b766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fG9mZmljZSUyMHN1cHBsaWVzfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+    ],
+    "description": "Bộ highlight nhiều màu pastel nhạt cho tín đồ trang trí planner.",
+    "specs": {
+      "Thương hiệu": "Stabilo",
+      "Số lượng": "6 màu"
+    },
+    "rating": 4.9,
+    "reviewCount": 310,
+    "stock": 100,
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Sổ Còng Binder B5 Caro",
+    "slug": "so-cong-binder-b5-caro-11",
+    "category": "so-tay",
+    "price": 120000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sổ còng đa năng có thể lấy và chèn giấy tuỳ ý, bìa nhựa mờ.",
+    "specs": {
+      "Thương hiệu": "Klong",
+      "Kích thước": "B5"
+    },
+    "rating": 4.9,
+    "reviewCount": 210,
+    "stock": 80,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 5,
+        "price": 110000
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Sổ A5 Da Mềm Moleskine",
+    "slug": "so-a5-da-mem-moleskine-12",
+    "category": "so-tay",
+    "price": 250000,
+    "originalPrice": 280000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sổ da nhập khẩu, trải nghiệm viết hoàn hảo, chống thấm mực.",
+    "specs": {
+      "Thương hiệu": "Moleskine",
+      "Số trang": "192 trang"
+    },
+    "rating": 4.8,
+    "reviewCount": 115,
+    "stock": 45,
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Tập Học Sinh 96 Trang Hồng Hà",
+    "slug": "tap-hoc-sinh-96-trang-hong-ha-13",
+    "category": "so-tay",
+    "price": 8000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Tập học sinh thiết kế hoạt hình, giấy trắng tự nhiên.",
+    "specs": {
+      "Thương hiệu": "Hồng Hà",
+      "Định lượng": "70gsm"
+    },
+    "rating": 4.7,
+    "reviewCount": 420,
+    "stock": 2000,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 100,
+        "price": 7500
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Sổ Lò Xo A4 Caro Campus",
+    "slug": "so-lo-xo-a4-caro-campus-14",
+    "category": "so-tay",
+    "price": 45000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Giấy chất lượng Nhật Bản, gáy lò xo cứng cáp.",
+    "specs": {
+      "Thương hiệu": "Campus",
+      "Kích thước": "A4"
+    },
+    "rating": 4.6,
+    "reviewCount": 150,
+    "stock": 180,
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Note Xinh Pastel Deli",
+    "slug": "note-xinh-pastel-deli-15",
+    "category": "so-tay",
+    "price": 25000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Giấy note dạ quang pastel bám dính cực nhạy dành cho dân văn phòng.",
+    "specs": {
+      "Thương hiệu": "Deli",
+      "Đóng gói": "3 xấp / gói"
+    },
+    "rating": 4.6,
+    "reviewCount": 78,
+    "stock": 500,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "price": 20000
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Giấy Đánh Chỉ Mục Kẻ Dòng",
+    "slug": "giay-danh-chi-muc-ke-dong-16",
+    "category": "so-tay",
+    "price": 18000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Giấy ghi chú dán lề phân loại hồ sơ dính chắc không rách.",
+    "specs": {
+      "Chất liệu": "Giấy Kraft hoặc dạ quang",
+      "Phong cách": "Đa màu"
+    },
+    "rating": 4.3,
+    "reviewCount": 42,
+    "stock": 210,
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "Sổ Dot Grid Dot-Grid Planner",
+    "slug": "so-dot-grid-planner-17",
+    "category": "so-tay",
+    "price": 150000,
+    "originalPrice": 180000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sổ Bullet Journal chuyên dành cho người thích sáng tạo sổ sách.",
+    "specs": {
+      "Thương hiệu": "Crab",
+      "Kích thước": "A5 - 100gsm"
+    },
+    "rating": 5,
+    "reviewCount": 44,
+    "stock": 100,
+    "featured": true
+  },
+  {
+    "id": 18,
+    "name": "Giấy Ghi Chú Trong Suốt",
+    "slug": "giay-ghi-chu-trong-suot-18",
+    "category": "so-tay",
+    "price": 32000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Giấy note có dán dính và hoàn toàn trong suốt để đọc được chữ bên dưới.",
+    "specs": {
+      "Số lượng": "50 tờ/xấp",
+      "Đặc tính": "Sáng bóng PET"
+    },
+    "rating": 4.6,
+    "reviewCount": 182,
+    "stock": 900,
+    "featured": false
+  },
+  {
+    "id": 19,
+    "name": "Sổ Tay Khóa Kéo",
+    "slug": "so-tay-khoa-keo-19",
+    "category": "so-tay",
+    "price": 185000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sổ tay da có dây kéo để chứa card, tiền, thẻ. Thích hợp đi học.",
+    "specs": {
+      "Kích thước": "A5",
+      "Chất liệu bìa": "Da PU"
+    },
+    "rating": 4.2,
+    "reviewCount": 11,
+    "stock": 45,
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Tập Vẽ Sketbook A3",
+    "slug": "tap-ve-sketbook-a3-20",
+    "category": "so-tay",
+    "price": 75000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Tập giấy vẽ bản rộng thích hợp cho phác thảo kiến trúc mĩ thuật.",
+    "specs": {
+      "Kích thước": "A3",
+      "Định lượng": "160gsm"
+    },
+    "rating": 4.9,
+    "reviewCount": 65,
+    "stock": 200,
+    "featured": true
+  },
+  {
+    "id": 21,
+    "name": "Bìa Còng Deli A4 5cm",
+    "slug": "bia-cong-deli-a4-5cm-21",
+    "category": "bia-ho-so",
+    "price": 35000,
+    "originalPrice": 45000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Bìa còng lưu trữ hàng nghìn tờ tài liệu, khoá sắt chắc chắn.",
+    "specs": {
+      "Thương hiệu": "Deli",
+      "Kích thước": "A4"
+    },
+    "rating": 4.5,
+    "reviewCount": 120,
+    "stock": 100,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 32000
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Kẹp Trình Ký Da Cao Cấp",
+    "slug": "kep-trinh-ky-da-cao-cap-22",
+    "category": "bia-ho-so",
+    "price": 65000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Mẫu bìa trình ký dành riêng cho quản lý hoặc các sự kiện ký hợp đồng chuyên nghiệp.",
+    "specs": {
+      "Chất liệu": "Da PU",
+      "Màu sắc": "Đen"
+    },
+    "rating": 4.9,
+    "reviewCount": 86,
+    "stock": 50,
+    "featured": false
+  },
+  {
+    "id": 23,
+    "name": "Bìa Lỗ Đựng Hồ Sơ 100 cái",
+    "slug": "bia-lo-dung-ho-so-100-cai-23",
+    "category": "bia-ho-so",
+    "price": 45000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Xấp bìa lỗ nilon trong suốt, dày và dẻo dùng nhiều trong lưu hồ sơ.",
+    "specs": {
+      "Đóng gói": "100 cái",
+      "Kích thước": "A4"
+    },
+    "rating": 4.8,
+    "reviewCount": 350,
+    "stock": 400,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 40000
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Bìa Nút Vàng Trong Suốt",
+    "slug": "bia-nut-vang-trong-suot-24",
+    "category": "bia-ho-so",
+    "price": 5000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Bìa túi cúc bấm tiện mang tài liệu nháp.",
+    "specs": {
+      "Màu sắc": "Nhiều màu",
+      "Kích thước": "A4"
+    },
+    "rating": 4.1,
+    "reviewCount": 65,
+    "stock": 1000,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "price": 4000
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Sổ Lưu Trữ Name Card",
+    "slug": "so-luu-tru-name-card-25",
+    "category": "bia-ho-so",
+    "price": 35000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sổ nilon nhiều ngăn chứa danh thiếp an toàn và thẩm mỹ.",
+    "specs": {
+      "Dung lượng": "240 card",
+      "Màu sắc": "Xám nhạt"
+    },
+    "rating": 4.8,
+    "reviewCount": 9,
+    "stock": 35,
+    "featured": false
+  },
+  {
+    "id": 26,
+    "name": "Khay Cắm Bút 3 Tầng Lưới",
+    "slug": "khay-cam-but-3-tang-luoi-26",
+    "category": "bia-ho-so",
+    "price": 40000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Lưới sắt tĩnh điện màu đen đựng nhiều bút chống đổ.",
+    "specs": {
+      "Chất liệu": "Sắt phủ",
+      "Màu sắc": "Đen"
+    },
+    "rating": 4.7,
+    "reviewCount": 18,
+    "stock": 250,
+    "featured": true
+  },
+  {
+    "id": 27,
+    "name": "Giá Đỡ Chặn Sách",
+    "slug": "gia-do-chan-sach-27",
+    "category": "bia-ho-so",
+    "price": 55000,
+    "originalPrice": 60000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Khối chặn sách L kim loại cứng cáp không làm xô lệch kệ.",
+    "specs": {
+      "Kích thước": "Lớn",
+      "Đóng gói": "2 chiếc/bộ"
+    },
+    "rating": 5,
+    "reviewCount": 40,
+    "stock": 80,
+    "featured": false
+  },
+  {
+    "id": 28,
+    "name": "Bảng Kẹp Mica Size Khủng",
+    "slug": "bang-kep-mica-size-khung-28",
+    "category": "bia-ho-so",
+    "price": 95000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Bảng trình ký mica siêu to A3 dùng trong trình ký xây dựng.",
+    "specs": {
+      "Chất liệu": "Mica dẻo",
+      "Màu": "Trong"
+    },
+    "rating": 4.1,
+    "reviewCount": 7,
+    "stock": 100,
+    "featured": false
+  },
+  {
+    "id": 29,
+    "name": "Bìa 3 Dây Cột Nhựa",
+    "slug": "bia-3-day-cot-nhua-29",
+    "category": "bia-ho-so",
+    "price": 28000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Bìa cột chứng từ kế toán 15cm cứng cáp.",
+    "specs": {
+      "Chất liệu": "Carton ép bóng",
+      "Kích thước": "Gáy 15cm"
+    },
+    "rating": 4.6,
+    "reviewCount": 86,
+    "stock": 1300,
+    "featured": false
+  },
+  {
+    "id": 30,
+    "name": "Kẹp Bướm Màu (Xấp 12 cái)",
+    "slug": "kep-buom-mau-30",
+    "category": "bia-ho-so",
+    "price": 15000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Kẹp tài liệu 32mm cho xấp 100 tờ giấy nhẹ nhàng.",
+    "specs": {
+      "Kích cỡ": "32mm",
+      "Màu sắc": "Mix 4 màu"
+    },
+    "rating": 4.5,
+    "reviewCount": 210,
+    "stock": 500,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 20,
+        "price": 12000
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Ghim Bấm & Hộp Ghim Số 10",
+    "slug": "ghim-bam-hop-ghim-so-10-31",
+    "category": "dung-cu-hoc-tap",
+    "price": 32000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Máy dập ghim nhỏ gọn tiện lợi, kèm theo hộp ghim.",
+    "specs": {
+      "Thương hiệu": "Plus",
+      "Loại ghim": "Số 10"
+    },
+    "rating": 4.6,
+    "reviewCount": 75,
+    "stock": 250,
+    "featured": true
+  },
+  {
+    "id": 32,
+    "name": "Máy Tính Khoa Học Casio fx-580",
+    "slug": "may-tinh-casio-fx580vn-32",
+    "category": "dung-cu-hoc-tap",
+    "price": 680000,
+    "originalPrice": 750000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Chiếc máy tính giải cứu thanh xuân học trò.",
+    "specs": {
+      "Thương hiệu": "Casio",
+      "Xuất xứ": "Thái Lan"
+    },
+    "rating": 5,
+    "reviewCount": 2341,
+    "stock": 100,
+    "featured": true
+  },
+  {
+    "id": 33,
+    "name": "Kéo Mini Nhỏ Dễ Thương",
+    "slug": "keo-mini-nho-de-thuong-33",
+    "category": "dung-cu-hoc-tap",
+    "price": 18000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Kéo thủ công mũi bo tròn an toàn cho trẻ.",
+    "specs": {
+      "Thương hiệu": "Deli",
+      "Kích thước": "12cm"
+    },
+    "rating": 4.5,
+    "reviewCount": 56,
+    "stock": 300,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 50,
+        "price": 15000
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dao Rọc Giấy Trợ Lực",
+    "slug": "dao-roc-giay-tro-luc-34",
+    "category": "dung-cu-hoc-tap",
+    "price": 25000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Dao rọc tự hãm khóa cao su chống cắt phạm.",
+    "specs": {
+      "Thương hiệu": "SDI",
+      "Loại lưỡi": "Loại lớn"
+    },
+    "rating": 4.7,
+    "reviewCount": 112,
+    "stock": 500,
+    "featured": false
+  },
+  {
+    "id": 35,
+    "name": "Hộp Bút Vải Canvas Minimal",
+    "slug": "hop-but-vai-canvas-minimal-35",
+    "category": "dung-cu-hoc-tap",
+    "price": 45000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Hộp đựng dáng thuôn đứng tiện mở trên bàn chật.",
+    "specs": {
+      "Chất liệu": "Vải Canvas",
+      "Màu sắc": "Be, Nâu"
+    },
+    "rating": 4.9,
+    "reviewCount": 235,
+    "stock": 320,
+    "featured": false
+  },
+  {
+    "id": 36,
+    "name": "Băng Keo 2 Mặt Siêu Cường",
+    "slug": "bang-keo-2-mat-sieu-cuong-36",
+    "category": "van-phong-pham-khac",
+    "price": 15000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Cuộn băng dính xốp gắn tường chịu nhiệt.",
+    "specs": {
+      "Loại": "Băng dính Acrylic",
+      "Độ dính": "Tối đa"
+    },
+    "rating": 4.8,
+    "reviewCount": 140,
+    "stock": 300,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 13000
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Giấy Note Viết Nháp Đục Lỗ",
+    "slug": "giay-note-nhap-can-lo-37",
+    "category": "van-phong-pham-khac",
+    "price": 20000,
+    "originalPrice": 25000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Sấp giấy note xé dán đa sắc màu bám lâu.",
+    "specs": {
+      "Xuất xứ": "Việt Nam",
+      "Đóng gói": "200 tờ"
+    },
+    "rating": 4.2,
+    "reviewCount": 98,
+    "stock": 420,
+    "featured": false
+  },
+  {
+    "id": 38,
+    "name": "Con Dấu Ngày Tháng Nhảy",
+    "slug": "con-dau-ngay-thang-38",
+    "category": "van-phong-pham-khac",
+    "price": 85000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Con dấu cao su in rõ nét dành cho văn thư.",
+    "specs": {
+      "Loại mực": "Đỏ, Xanh",
+      "Đặc tính": "Sẵn khay mực"
+    },
+    "rating": 4.8,
+    "reviewCount": 11,
+    "stock": 100,
+    "featured": false
+  },
+  {
+    "id": 39,
+    "name": "Giấy In A4 Double A 80gsm",
+    "slug": "giay-in-a4-double-a-80-39",
+    "category": "van-phong-pham-khac",
+    "price": 95000,
+    "originalPrice": 105000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Ram 500 tờ giấy trắng sáng chuyên nghiệp.",
+    "specs": {
+      "Thương hiệu": "Double A",
+      "Định lượng": "80gsm"
+    },
+    "rating": 4.9,
+    "reviewCount": 1500,
+    "stock": 10000,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 5,
+        "price": 90000
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Bảng Từ Trắng Viết Viết Lông",
+    "slug": "bang-tu-trang-viet-long-40",
+    "category": "van-phong-pham-khac",
+    "price": 450000,
+    "images": [
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+    ],
+    "description": "Bảng viết treo phòng họp khung nhôm viền mỏng mượt mà.",
+    "specs": {
+      "Kích thước": "80x120cm",
+      "Bề mặt": "Hàn Quốc"
+    },
+    "rating": 4.5,
+    "reviewCount": 65,
+    "stock": 20,
+    "featured": false
+  },
+  {
+    "id": 41,
+    "name": "Sổ Tích Hợp Bìa Da Cao Cấp",
+    "slug": "so-tich-hop-bia-da-cao-cap-42",
+    "category": "so-vo",
+    "price": 120000,
+    "originalPrice": 144000,
+    "images": [
+      "https://loremflickr.com/800/800/diary,leather?lock=411",
+      "https://loremflickr.com/800/800/diary,leather?lock=412",
+      "https://loremflickr.com/800/800/diary,leather?lock=413"
+    ],
+    "description": "Sổ bìa da sang trọng, giấy nhám chống loá.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.5,
+    "reviewCount": 34,
+    "stock": 351,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 108000
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Vở Campus Kẻ Ngang 200 Trang",
+    "slug": "vo-campus-ke-ngang-200-trang-43",
+    "category": "so-vo",
+    "price": 15000,
+    "originalPrice": 18000,
+    "images": [
+      "https://loremflickr.com/800/800/notebook,school?lock=421",
+      "https://loremflickr.com/800/800/notebook,school?lock=422",
+      "https://loremflickr.com/800/800/notebook,school?lock=423"
+    ],
+    "description": "Vở học sinh, sinh viên gáy ép keo Nhật Bản.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.7,
+    "reviewCount": 98,
+    "stock": 80,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 13500
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Sổ Lò Xo A5 Khổ Nhỏ",
+    "slug": "so-lo-xo-a5-kho-nho-44",
+    "category": "so-vo",
+    "price": 35000,
+    "originalPrice": 42000,
+    "images": [
+      "https://loremflickr.com/800/800/notepad,spiral?lock=431",
+      "https://loremflickr.com/800/800/notepad,spiral?lock=432",
+      "https://loremflickr.com/800/800/notepad,spiral?lock=433"
+    ],
+    "description": "Tiện dụng bỏ túi, xoay 360 độ.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.8,
+    "reviewCount": 147,
+    "stock": 415,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 31500
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Máy Tính Casio FX-580VN X",
+    "slug": "may-tinh-casio-fx-580vn-x-45",
+    "category": "dung-cu",
+    "price": 650000,
+    "originalPrice": 780000,
+    "images": [
+      "https://loremflickr.com/800/800/calculator,math?lock=441",
+      "https://loremflickr.com/800/800/calculator,math?lock=442",
+      "https://loremflickr.com/800/800/calculator,math?lock=443"
+    ],
+    "description": "Máy tính bấm dành riêng cho học sinh cấp 3, thi THPT.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.3,
+    "reviewCount": 142,
+    "stock": 451,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 585000
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Thước Kẻ Mika Deli 20cm",
+    "slug": "thuoc-ke-mika-deli-20cm-46",
+    "category": "dung-cu",
+    "price": 8000,
+    "originalPrice": 10000,
+    "images": [
+      "https://loremflickr.com/800/800/ruler,stationery?lock=451",
+      "https://loremflickr.com/800/800/ruler,stationery?lock=452",
+      "https://loremflickr.com/800/800/ruler,stationery?lock=453"
+    ],
+    "description": "Thước nhựa dẻo, vạch chia rõ ràng.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.7,
+    "reviewCount": 47,
+    "stock": 335,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 7200
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Compa Học Sinh Kèm Chì",
+    "slug": "compa-hoc-sinh-kem-chi-47",
+    "category": "dung-cu",
+    "price": 25000,
+    "originalPrice": 30000,
+    "images": [
+      "https://loremflickr.com/800/800/compass,drafting?lock=461",
+      "https://loremflickr.com/800/800/compass,drafting?lock=462",
+      "https://loremflickr.com/800/800/compass,drafting?lock=463"
+    ],
+    "description": "Compa linh hoạt vẽ vòng chuẩn xác.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.8,
+    "reviewCount": 70,
+    "stock": 427,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 22500
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Khay Đựng Hồ Sơ 3 Tầng Kệ Lưới",
+    "slug": "khay-dung-ho-so-3-tang-ke-luoi-48",
+    "category": "van-phong",
+    "price": 180000,
+    "originalPrice": 216000,
+    "images": [
+      "https://loremflickr.com/800/800/desk,organizer?lock=471",
+      "https://loremflickr.com/800/800/desk,organizer?lock=472",
+      "https://loremflickr.com/800/800/desk,organizer?lock=473"
+    ],
+    "description": "Khay tài liệu sơn tĩnh điện đen.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.6,
+    "reviewCount": 136,
+    "stock": 233,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 162000
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Hộp Kẹp Bướm Chống Thủng 15mm",
+    "slug": "hop-kep-buom-chong-thung-15mm-49",
+    "category": "van-phong",
+    "price": 12000,
+    "originalPrice": 14000,
+    "images": [
+      "https://loremflickr.com/800/800/paperclips,binder?lock=481",
+      "https://loremflickr.com/800/800/paperclips,binder?lock=482",
+      "https://loremflickr.com/800/800/paperclips,binder?lock=483"
+    ],
+    "description": "Dùng để kẹp lượng tài liệu lớn gọn gàng.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.9,
+    "reviewCount": 202,
+    "stock": 458,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 10800
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Kéo Cắt Giấy Lớn Văn Phòng",
+    "slug": "keo-cat-giay-lon-van-phong-50",
+    "category": "van-phong",
+    "price": 42000,
+    "originalPrice": 50000,
+    "images": [
+      "https://loremflickr.com/800/800/scissors,desk?lock=491",
+      "https://loremflickr.com/800/800/scissors,desk?lock=492",
+      "https://loremflickr.com/800/800/scissors,desk?lock=493"
+    ],
+    "description": "Lưỡi kéo thép không gỉ.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.1,
+    "reviewCount": 29,
+    "stock": 232,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 37800
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Ram Giấy In Double A A4 80gsm",
+    "slug": "ram-giay-in-double-a-a4-80gsm-51",
+    "category": "giay-in",
+    "price": 75000,
+    "originalPrice": 90000,
+    "images": [
+      "https://loremflickr.com/800/800/paper,stack?lock=501",
+      "https://loremflickr.com/800/800/paper,stack?lock=502",
+      "https://loremflickr.com/800/800/paper,stack?lock=503"
+    ],
+    "description": "Chất lượng giấy in bền dai số 1.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.1,
+    "reviewCount": 177,
+    "stock": 172,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 67500
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Ram Giấy In IK Plus A4 70gsm",
+    "slug": "ram-giay-in-ik-plus-a4-70gsm-52",
+    "category": "giay-in",
+    "price": 62000,
+    "originalPrice": 74000,
+    "images": [
+      "https://loremflickr.com/800/800/paper,documents?lock=511",
+      "https://loremflickr.com/800/800/paper,documents?lock=512",
+      "https://loremflickr.com/800/800/paper,documents?lock=513"
+    ],
+    "description": "Giấy in phổ thông cho văn phòng.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 3.8,
+    "reviewCount": 13,
+    "stock": 291,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 55800
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Hộp Màu Nước Thiên Long 12 Màu",
+    "slug": "hop-mau-nuoc-thien-long-12-mau-53",
+    "category": "my-thuat",
+    "price": 45000,
+    "originalPrice": 54000,
+    "images": [
+      "https://loremflickr.com/800/800/watercolor,paint?lock=521",
+      "https://loremflickr.com/800/800/watercolor,paint?lock=522",
+      "https://loremflickr.com/800/800/watercolor,paint?lock=523"
+    ],
+    "description": "Bộ màu nước tặng kèm cọ vẽ cho thiếu nhi.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.5,
+    "reviewCount": 169,
+    "stock": 254,
+    "featured": true,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 40500
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Bộ Cọ Vẽ Đa Năng 5 Cây",
+    "slug": "bo-co-ve-da-nang-5-cay-54",
+    "category": "my-thuat",
+    "price": 30000,
+    "originalPrice": 36000,
+    "images": [
+      "https://loremflickr.com/800/800/paintbrush,art?lock=531",
+      "https://loremflickr.com/800/800/paintbrush,art?lock=532",
+      "https://loremflickr.com/800/800/paintbrush,art?lock=533"
+    ],
+    "description": "Cọ lông mềm, vuốt nét chuẩn.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.9,
+    "reviewCount": 37,
+    "stock": 293,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 27000
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Đất Sét Nặn Bọt Biển Siêu Nhẹ",
+    "slug": "dat-set-nan-bot-bien-sieu-nhe-55",
+    "category": "my-thuat",
+    "price": 28000,
+    "originalPrice": 34000,
+    "images": [
+      "https://loremflickr.com/800/800/clay,modeling?lock=541",
+      "https://loremflickr.com/800/800/clay,modeling?lock=542",
+      "https://loremflickr.com/800/800/clay,modeling?lock=543"
+    ],
+    "description": "Nặn khô nhanh, an toàn vô độc.",
+    "specs": {
+      "Thương hiệu": "OEM",
+      "Xuất xứ": "Đang cập nhật"
+    },
+    "rating": 4.2,
+    "reviewCount": 174,
+    "stock": 441,
+    "featured": false,
+    "bulkPricing": [
+      {
+        "minQty": 10,
+        "price": 25200
+      }
+    ]
+  }
+]

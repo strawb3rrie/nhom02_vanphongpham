@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "productId": 1,
+    "user": "Nguyễn Trọng A",
+    "rating": 5,
+    "comment": "Bút viết êm, không tắc mực, giá cả hợp lý cho sinh viên.",
+    "date": "2026-03-15T10:30:00Z"
+  },
+  {
+    "id": 2,
+    "productId": 1,
+    "user": "Trần Thị B",
+    "rating": 4,
+    "comment": "Giao hàng nhanh, đóng gói cẩn thận. Bút đẹp.",
+    "date": "2026-03-20T14:15:00Z"
+  },
+  {
+    "id": 3,
+    "productId": 2,
+    "user": "Lê Văn C",
+    "rating": 5,
+    "comment": "Sổ bìa da cực xịn, giấy rất tốt khi viết bút máy.",
+    "date": "2026-04-02T09:00:00Z"
+  }
+]

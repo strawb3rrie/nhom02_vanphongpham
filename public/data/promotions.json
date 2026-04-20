@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "code": "WELCOME10",
+    "discountPercent": 10,
+    "title": "Chào mừng bạn mới",
+    "description": "Giảm 10% cho đơn hàng đầu tiên của bạn.",
+    "minOrderValue": 0,
+    "validUntil": "2026-12-31T23:59:59Z"
+  },
+  {
+    "id": 2,
+    "code": "FREESHIP",
+    "discountAmount": 30000,
+    "title": "Freeship toàn quốc",
+    "description": "Miễn phí vận chuyển cho đơn hàng từ 500k.",
+    "minOrderValue": 500000,
+    "validUntil": "2026-12-31T23:59:59Z"
+  },
+  {
+    "id": 3,
+    "code": "BACK2SCHOOL",
+    "discountPercent": 15,
+    "title": "Mùa tựu trường",
+    "description": "Giảm 15% cho học sinh, sinh viên với thẻ.",
+    "minOrderValue": 200000,
+    "validUntil": "2026-09-30T23:59:59Z"
+  }
+]
