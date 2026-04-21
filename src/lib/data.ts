@@ -1,4 +1,4 @@
-// Type definitions (giữ nguyên)
+// Type definitions
 export interface Product {
   id: number;
   name: string;
@@ -52,116 +52,76 @@ export interface TeamMember {
   github: string;
 }
 
-// Base URL (giữ nhưng làm gọn)
+// In a real app these would be API calls. Here we just fetch the static JSON files.
+// We use the absolute URL for server components if needed, or relative for browser.
+
 const getBaseUrl = () => {
   if (typeof window !== "undefined") return "";
-  return process.env.VERCEL_URL
-    ? `https://${process.env.VERCEL_URL}`
-    : `http://localhost:3000`;
+  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  return `http://localhost:${process.env.PORT || 3000}`;
 };
 
-// ================= PRODUCTS =================
 export async function getProducts(): Promise<Product[]> {
+  // Using dynamic import of local file as a robust fallback for static generation
+  // Or fetch from public dir if running
   try {
-    const res = await fetch(`${getBaseUrl()}/data/products.json`, {
-      next: { revalidate: 60 }, // ✅ cải thiện cache
-    });
-
-    if (!res.ok) {
-      throw new Error(`Failed to fetch products: ${res.status}`);
-    }
-
-    const data: Product[] = await res.json();
-    return data;
-  } catch (err) {
-    console.error("getProducts error:", err);
-
-    // ✅ FIX: không import từ public nữa
-    const data = await import("@/data/products.json");
-    return data.default as Product[];
+    const res = await fetch(`${getBaseUrl()}/data/products.json`, { cache: 'no-store' });
+    if (!res.ok) throw new Error("Failed to fetch products");
+    return res.json();
+  } catch {
+    // Fallback for static build
+    const data = await import("../../public/data/products.json");
+    return data.default as unknown as Product[];
   }
 }
 
-// ================= PRODUCT DETAIL =================
-export async function getProductBySlug(
-  slug: string
-): Promise<Product | null> {
+export async function getProductBySlug(slug: string): Promise<Product | null> {
   const products = await getProducts();
   return products.find((p) => p.slug === slug) || null;
 }
 
-// ================= CATEGORIES =================
 export async function getCategories(): Promise<Category[]> {
   try {
-    const res = await fetch(`${getBaseUrl()}/data/categories.json`, {
-      next: { revalidate: 300 },
-    });
-
+    const res = await fetch(`${getBaseUrl()}/data/categories.json`, { cache: 'no-store' });
     if (!res.ok) throw new Error("Failed to fetch categories");
-
     return res.json();
-  } catch (err) {
-    console.error("getCategories error:", err);
-
-    const data = await import("@/data/categories.json");
+  } catch {
+    const data = await import("../../public/data/categories.json");
     return data.default as Category[];
   }
 }
 
-// ================= PROMOTIONS =================
 export async function getPromotions(): Promise<Promotion[]> {
   try {
-    const res = await fetch(`${getBaseUrl()}/data/promotions.json`, {
-      next: { revalidate: 300 },
-    });
-
+    const res = await fetch(`${getBaseUrl()}/data/promotions.json`, { cache: 'no-store' });
     if (!res.ok) throw new Error("Failed to fetch promotions");
-
     return res.json();
-  } catch (err) {
-    console.error("getPromotions error:", err);
-
-    const data = await import("@/data/promotions.json");
+  } catch {
+    const data = await import("../../public/data/promotions.json");
     return data.default as Promotion[];
   }
 }
 
-// ================= REVIEWS =================
-export async function getReviews(
-  productId: number
-): Promise<Review[]> {
+export async function getReviews(productId: number): Promise<Review[]> {
   try {
-    const res = await fetch(`${getBaseUrl()}/data/reviews.json`, {
-      next: { revalidate: 3600 },
-    });
-
+    const res = await fetch(`${getBaseUrl()}/data/reviews.json`, { next: { revalidate: 3600 } });
     if (!res.ok) throw new Error("Failed to fetch reviews");
-
     const reviews: Review[] = await res.json();
-    return reviews.filter((r) => r.productId === productId);
-  } catch (err) {
-    console.error("getReviews error:", err);
-
-    const data = await import("@/data/reviews.json");
+    return reviews.filter(r => r.productId === productId);
+  } catch {
+    const data = await import("../../public/data/reviews.json");
     const reviews = data.default as Review[];
-    return reviews.filter((r) => r.productId === productId);
+    return reviews.filter(r => r.productId === productId);
   }
 }
 
-// ================= TEAM =================
 export async function getTeam(): Promise<TeamMember[]> {
   try {
-    const res = await fetch(`${getBaseUrl()}/data/team.json`, {
-      next: { revalidate: 300 },
-    });
-
+    const res = await fetch(`${getBaseUrl()}/data/team.json`, { cache: 'no-store' });
     if (!res.ok) throw new Error("Failed to fetch team");
-
     return res.json();
-  } catch (err) {
-    console.error("getTeam error:", err);
-
-    const data = await import("@/data/team.json");
+  } catch {
+    const data = await import("../../public/data/team.json");
     return data.default as TeamMember[];
   }
 }
