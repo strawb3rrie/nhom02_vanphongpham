@@ -1,34 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Thành viên 1",
-    "mssv": "21110XXX",
-    "role": "Frontend Developer",
-    "avatar": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=200&h=200&auto=format&fit=crop",
-    "github": "https://github.com/placeholder"
+    "name": "Lê Bảo Hân",
+    "mssv": "24126063",
+    "role": "Core Frontend Developer",
+    "avatar": "/Le-Bao-Han.jpg",
+    "github": "https://github.com/Hanniee211"
   },
   {
     "id": 2,
-    "name": "Thành viên 2",
-    "mssv": "21110YYY",
-    "role": "UX/UI Designer",
-    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200&h=200&auto=format&fit=crop",
-    "github": "https://github.com/placeholder"
+    "name": "Nguyễn Ngọc Bảo Hân",
+    "mssv": "24126066",
+    "role": "Frontend Developer",
+    "avatar": "/Nguyen-Ngoc-Bao-Han.jpg",
+    "github": "https://github.com/24126066-hub"
   },
   {
     "id": 3,
-    "name": "Thành viên 3",
-    "mssv": "21110ZZZ",
-    "role": "QA Engineer",
-    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&h=200&auto=format&fit=crop",
-    "github": "https://github.com/placeholder"
+    "name": "Đặng Khánh Linh",
+    "mssv": "24126112",
+    "role": "UI/UX Frontend Developer",
+    "avatar": "/Dang-Khanh-Linh.jpg",
+    "github": "https://github.com/strawb3rrie"
   },
   {
     "id": 4,
-    "name": "Thành viên 4",
-    "mssv": "21110AAA",
-    "role": "Backend Developer",
-    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop",
-    "github": "https://github.com/placeholder"
+    "name": "Trần Thị Bích Loan",
+    "mssv": "24126119",
+    "role": "Application Developer",
+    "avatar": "/Tran-Thi-Bich-Loan.jpg",
+    "github": "https://github.com/24126119-beep"
   }
 ]

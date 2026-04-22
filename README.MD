@@ -1,4 +1,4 @@
-Nhóm 2
+NHÓM 2
 - Danh sách thành viên:
 + Lê Bảo Hân - 24126063 
 + Nguyễn Ngọc Bảo Hân - 24126066
@@ -14,9 +14,12 @@ Nhóm 2
 - Thanh toán đơn hàng
 Ngoài ra, hệ thống được thiết kế với giao diện thân thiện, tối ưu trải nghiệm người dùng.
 
+
 - Link Figma: https://www.figma.com/design/QhxCwHXB8MsKZiaOjSAN80/TKW?node-id=0-1&t=WhoA0maHqkiBusVz-1
 
-- Link GitHub: 
+
+- Link GitHub:
+
 
 - Hướng dẫn chạy local:
 + cd ute-stationery
@@ -24,6 +27,3 @@ Ngoài ra, hệ thống được thiết kế với giao diện thân thiện, t
 + npm run dev
 + site : http://localhost:3000
 - user demo : user@ute.edu.vn / 123456 (đăng nhập web hoặc có thể đăng ký bằng thông tin khác)
-
-
-
