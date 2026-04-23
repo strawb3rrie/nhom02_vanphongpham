@@ -20,7 +20,31 @@
     "productId": 2,
     "user": "Lê Văn C",
     "rating": 5,
-    "comment": "Sổ bìa da cực xịn, giấy rất tốt khi viết bút máy.",
+    "comment": "Bút gel viết êm, mực đều khô nhanh.",
     "date": "2026-04-02T09:00:00Z"
+  },
+  {
+    "id": 4,
+    "productId": 3,
+    "user": "Nguyễn Thị A",
+    "rating": 5,
+    "comment": "Bút chì chất lượng tốt, thiết kế đẹp.",
+    "date": "2026-03-15T10:30:00Z"
+  },
+  {
+    "id": 5,
+    "productId": 4,
+    "user": "Phạm Văn D",
+    "rating": 4,
+    "comment": "Bút màu đẹp, không lem chữ.",
+    "date": "2026-03-02T14:15:00Z"
+  },
+  {
+    "id": 6,
+    "productId": 5,
+    "user": "Trần Thị E",
+    "rating": 5,
+    "comment": "Bút mực tốt, viết mượt mà.",
+    "date": "2026-03-10T11:45:00Z"
   }
 ]
