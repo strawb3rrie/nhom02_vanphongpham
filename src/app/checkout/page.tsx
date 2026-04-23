@@ -1,20 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useCartStore } from "@/stores/cartStore";
 import { useOrderStore } from "@/stores/orderStore";
 import { useToastStore } from "@/stores/toastStore";
-import { useAuthStore } from "@/stores/authStore"; // Thêm AuthStore
 import { formatPrice } from "@/lib/utils";
 import { ROUTES, SITE_CONFIG } from "@/lib/constants";
 import { Breadcrumb } from "@/components/layout/Breadcrumb";
-import { CreditCard, Truck, Wallet, CheckCircle, Loader2 } from "lucide-react";
+import { CreditCard, Truck, Wallet, CheckCircle } from "lucide-react";
 
 export default function CheckoutPage() {
   const router = useRouter();
-  const { user } = useAuthStore(); // Lấy thông tin user hiện tại
   const { items, getSubtotal, getTotal, discountAmount, clearCart } = useCartStore();
   const { addOrder } = useOrderStore();
   const { addToast } = useToastStore();
@@ -32,27 +30,10 @@ export default function CheckoutPage() {
 
   const [errors, setErrors] = useState<Record<string, string>>({});
 
-  // Tự động điền thông tin nếu user đã login
-  useEffect(() => {
-    if (user) {
-      setFormData(prev => ({
-        ...prev,
-        fullName: user.name || "",
-        phone: user.phone || "",
-        address: user.address || "",
-      }));
-    }
-  }, [user]);
-
-  // Tính toán phí ship bằng useMemo để tối ưu hiệu năng
+  // Calculate Shipping
   const subtotal = getSubtotal();
-  const { shippingFee, finalTotal } = useMemo(() => {
-    const fee = subtotal >= SITE_CONFIG.freeShippingThreshold ? 0 : SITE_CONFIG.shippingFee;
-    return {
-      shippingFee: fee,
-      finalTotal: getTotal() + fee
-    };
-  }, [subtotal, getTotal]);
+  const shippingFee = subtotal >= SITE_CONFIG.freeShippingThreshold ? 0 : SITE_CONFIG.shippingFee;
+  const finalTotal = getTotal() + shippingFee;
 
   useEffect(() => {
     if (items.length === 0 && !orderComplete) {
@@ -61,40 +42,37 @@ export default function CheckoutPage() {
   }, [items, router, orderComplete]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-    if (errors[name]) setErrors(prev => ({ ...prev, [name]: "" }));
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+    // Clear error
+    if (errors[e.target.name]) {
+      setErrors({ ...errors, [e.target.name]: "" });
+    }
   };
 
   const validate = () => {
     const newErrors: Record<string, string> = {};
     if (!formData.fullName.trim()) newErrors.fullName = "Vui lòng nhập họ tên";
     if (!formData.phone.trim()) newErrors.phone = "Vui lòng nhập số điện thoại";
-    else if (!/^(0|84)(3|5|7|8|9)([0-9]{8})$/.test(formData.phone.replace(/\s/g, ""))) {
-      newErrors.phone = "Số điện thoại Việt Nam không hợp lệ";
+    else if (!/^[0-9]{10,11}$/.test(formData.phone.replace(/\s/g, ""))) {
+      newErrors.phone = "Số điện thoại không hợp lệ";
     }
-    if (!formData.address.trim()) newErrors.address = "Vui lòng nhập địa chỉ cụ thể";
+    if (!formData.address.trim()) newErrors.address = "Vui lòng nhập địa chỉ giao hàng";
     
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!validate()) {
-      addToast({ title: "Thông tin chưa hợp lệ", type: "error" });
-      return;
-    }
+    if (!validate()) return;
     
     setIsSubmitting(true);
     
-    try {
-      // Giả lập gọi API thực tế
-      await new Promise(resolve => setTimeout(resolve, 2000));
-
+    // Mock API call
+    setTimeout(() => {
       addOrder({
         items: [...items],
-        subtotal,
+        subtotal: getSubtotal(),
         discount: discountAmount,
         shippingFee,
         total: finalTotal,
@@ -104,45 +82,44 @@ export default function CheckoutPage() {
           address: formData.address,
         },
         paymentMethod: formData.paymentMethod,
-        status: "pending",
-        createdAt: new Date().toISOString(),
       });
       
       clearCart();
+      setIsSubmitting(false);
       setOrderComplete(true);
+      
       addToast({
         title: "Đặt hàng thành công!",
-        description: "Đơn hàng của bạn đang được xử lý.",
+        description: "Chúng tôi sẽ sớm liên hệ để xác nhận đơn hàng.",
         type: "success"
       });
-    } catch (err) {
-      addToast({ title: "Có lỗi xảy ra", description: "Vui lòng thử lại sau.", type: "error" });
-    } finally {
-      setIsSubmitting(false);
-    }
+    }, 1500);
   };
 
-  // Trang trạng thái thành công
   if (orderComplete) {
     return (
-      <div className="container mx-auto px-4 py-20 text-center">
-        <motion.div 
-          initial={{ scale: 0.8, opacity: 0 }} 
-          animate={{ scale: 1, opacity: 1 }}
-          className="max-w-md mx-auto"
-        >
-          <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-            <CheckCircle className="h-10 w-10 text-green-600" />
-          </div>
-          <h1 className="text-3xl font-bold mb-4">Cảm ơn bạn đã mua hàng!</h1>
-          <p className="text-muted-foreground mb-8">
-            Đơn hàng của bạn đã được tiếp nhận. Bạn có thể theo dõi tiến độ trong phần lịch sử mua hàng.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <button onClick={() => router.push(ROUTES.ORDERS)} className="bg-primary text-white px-8 py-3 rounded-xl font-bold">Xem đơn hàng</button>
-            <button onClick={() => router.push("/")} className="bg-secondary px-8 py-3 rounded-xl font-bold">Tiếp tục mua sắm</button>
-          </div>
-        </motion.div>
+      <div className="container mx-auto px-4 py-16 flex flex-col items-center justify-center min-h-[60vh]">
+        <div className="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center mb-6">
+          <CheckCircle className="h-12 w-12 text-green-600" />
+        </div>
+        <h1 className="text-3xl font-bold font-heading mb-4 text-center">Đặt hàng thành công!</h1>
+        <p className="text-muted-foreground mb-8 text-center max-w-md">
+          Cảm ơn bạn đã tin tưởng và mua sắm tại {SITE_CONFIG.name}. Mã vận đơn của bạn đã được lưu lại trong mục đơn hàng.
+        </p>
+        <div className="flex gap-4">
+          <button 
+            onClick={() => router.push(ROUTES.HOME)}
+            className="px-6 py-3 border border-border rounded-full font-medium hover:bg-muted transition-colors"
+          >
+            Về trang chủ
+          </button>
+          <button 
+            onClick={() => router.push(ROUTES.ORDERS)}
+            className="px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-colors"
+          >
+            Xem đơn hàng
+          </button>
+        </div>
       </div>
     );
   }
@@ -150,80 +127,205 @@ export default function CheckoutPage() {
   if (items.length === 0) return null;
 
   return (
-    <div className="bg-slate-50 min-h-screen"> {/* Thêm background nhẹ để tách biệt các card */}
-      <div className="container mx-auto px-4 py-8">
-        <Breadcrumb items={[{ label: "Giỏ hàng", href: ROUTES.CART }, { label: "Thanh toán" }]} />
-        <h1 className="text-3xl font-bold font-heading my-8">Quy trình thanh toán</h1>
+    <div className="container mx-auto px-4 py-8">
+      <Breadcrumb 
+        items={[
+          { label: "Giỏ hàng", href: ROUTES.CART },
+          { label: "Thanh toán" }
+        ]} 
+      />
+      
+      <h1 className="text-3xl font-bold font-heading mb-8">Thanh toán</h1>
 
-        <form onSubmit={handleSubmit} className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          {/* Cột trái: Thông tin & Thanh toán */}
-          <div className="lg:col-span-7 space-y-6">
-            {/* Bước 1: Thông tin */}
-            <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
-              <h2 className="text-xl font-bold mb-6 flex items-center gap-3">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-white text-sm">1</span>
-                Thông tin người nhận
-              </h2>
-              {/* ... Giữ nguyên input của bạn, có thể thêm class focus:border-primary ... */}
-            </div>
-
-            {/* Bước 2: Thanh toán */}
-            <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100">
-              <h2 className="text-xl font-bold mb-6 flex items-center gap-3">
-                <span className="flex items-center justify-center w-8 h-8 rounded-full bg-primary text-white text-sm">2</span>
-                Hình thức thanh toán
-              </h2>
-              {/* ... Phần Radio Button Payment của bạn ... */}
-            </div>
-          </div>
-
-          {/* Cột phải: Tóm tắt đơn hàng (Sticky) */}
-          <div className="lg:col-span-5">
-            <div className="bg-white rounded-3xl p-6 shadow-sm border border-slate-100 sticky top-24">
-              <h2 className="text-xl font-bold mb-6">Tóm tắt đơn hàng</h2>
+      <form onSubmit={handleSubmit} className="flex flex-col lg:flex-row gap-8">
+        <div className="flex-1 space-y-8">
+          {/* Shipping Address */}
+          <section className="bg-card border rounded-2xl p-6">
+            <h2 className="text-xl font-bold font-heading mb-6 flex items-center gap-2">
+              <span className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm">1</span>
+              Thông tin giao hàng
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <label htmlFor="fullName" className="text-sm font-medium">Họ và tên *</label>
+                <input 
+                  id="fullName"
+                  name="fullName"
+                  type="text" 
+                  value={formData.fullName}
+                  onChange={handleChange}
+                  className={`w-full border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary/50 ${errors.fullName ? 'border-red-500' : ''}`}
+                />
+                {errors.fullName && <p className="text-red-500 text-xs mt-1">{errors.fullName}</p>}
+              </div>
               
-              <div className="max-h-60 overflow-y-auto mb-6 pr-2 custom-scrollbar">
-                 {/* Map items ở đây */}
+              <div className="space-y-2">
+                <label htmlFor="phone" className="text-sm font-medium">Số điện thoại *</label>
+                <input 
+                  id="phone"
+                  name="phone"
+                  type="tel" 
+                  value={formData.phone}
+                  onChange={handleChange}
+                  className={`w-full border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary/50 ${errors.phone ? 'border-red-500' : ''}`}
+                />
+                {errors.phone && <p className="text-red-500 text-xs mt-1">{errors.phone}</p>}
+              </div>
+              
+              <div className="space-y-2 md:col-span-2">
+                <label htmlFor="address" className="text-sm font-medium">Địa chỉ nhận hàng *</label>
+                <input 
+                  id="address"
+                  name="address"
+                  type="text" 
+                  value={formData.address}
+                  onChange={handleChange}
+                  placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành phố"
+                  className={`w-full border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary/50 ${errors.address ? 'border-red-500' : ''}`}
+                />
+                {errors.address && <p className="text-red-500 text-xs mt-1">{errors.address}</p>}
               </div>
 
-              <div className="space-y-3 py-4 border-t border-dashed">
-                <div className="flex justify-between text-slate-600">
-                  <span>Tạm tính</span>
-                  <span>{formatPrice(subtotal)}</span>
+              <div className="space-y-2 md:col-span-2">
+                <label htmlFor="note" className="text-sm font-medium">Ghi chú đơn hàng (Tùy chọn)</label>
+                <textarea 
+                  id="note"
+                  name="note"
+                  value={formData.note}
+                  onChange={handleChange}
+                  rows={3}
+                  className="w-full border rounded-lg px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-primary/50 resize-y"
+                ></textarea>
+              </div>
+            </div>
+          </section>
+
+          {/* Payment Method */}
+          <section className="bg-card border rounded-2xl p-6">
+            <h2 className="text-xl font-bold font-heading mb-6 flex items-center gap-2">
+              <span className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm">2</span>
+              Phương thức thanh toán
+            </h2>
+            
+            <div className="space-y-3">
+              <label className={`flex items-center gap-4 p-4 border rounded-xl cursor-pointer transition-colors ${formData.paymentMethod === 'cod' ? 'border-primary bg-primary/5' : 'hover:border-primary/50'}`}>
+                <input 
+                  type="radio" 
+                  name="paymentMethod" 
+                  value="cod" 
+                  checked={formData.paymentMethod === 'cod'}
+                  onChange={handleChange}
+                  className="w-4 h-4 text-primary focus:ring-primary"
+                />
+                <Truck className="h-6 w-6 text-muted-foreground" />
+                <div className="flex-1">
+                  <p className="font-medium">Thanh toán khi nhận hàng (COD)</p>
+                  <p className="text-sm text-muted-foreground">Thanh toán bằng tiền mặt khi giao hàng</p>
                 </div>
-                {discountAmount > 0 && (
-                  <div className="flex justify-between text-green-600">
-                    <span>Giảm giá</span>
-                    <span>-{formatPrice(discountAmount)}</span>
+              </label>
+
+              <label className={`flex items-center gap-4 p-4 border rounded-xl cursor-pointer transition-colors ${formData.paymentMethod === 'bank' ? 'border-primary bg-primary/5' : 'hover:border-primary/50'}`}>
+                <input 
+                  type="radio" 
+                  name="paymentMethod" 
+                  value="bank" 
+                  checked={formData.paymentMethod === 'bank'}
+                  onChange={handleChange}
+                  className="w-4 h-4 text-primary focus:ring-primary"
+                />
+                <CreditCard className="h-6 w-6 text-muted-foreground" />
+                <div className="flex-1">
+                  <p className="font-medium">Chuyển khoản ngân hàng</p>
+                  <p className="text-sm text-muted-foreground">Thực hiện thanh toán vào tài khoản ngân hàng</p>
+                </div>
+              </label>
+
+              <label className={`flex items-center gap-4 p-4 border rounded-xl cursor-pointer transition-colors ${formData.paymentMethod === 'ewallet' ? 'border-primary bg-primary/5' : 'hover:border-primary/50'}`}>
+                <input 
+                  type="radio" 
+                  name="paymentMethod" 
+                  value="ewallet" 
+                  checked={formData.paymentMethod === 'ewallet'}
+                  onChange={handleChange}
+                  className="w-4 h-4 text-primary focus:ring-primary"
+                />
+                <Wallet className="h-6 w-6 text-muted-foreground" />
+                <div className="flex-1">
+                  <p className="font-medium">Ví điện tử (Momo / ZaloPay)</p>
+                  <p className="text-sm text-muted-foreground">Thanh toán an toàn qua ví điện tử</p>
+                </div>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        {/* Order Summary */}
+        <div className="w-full lg:w-96 shrink-0">
+          <div className="bg-card border rounded-2xl p-6 sticky top-24">
+            <h2 className="text-xl font-bold font-heading border-b pb-4 mb-4 flex items-center gap-2">
+              <span className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm">3</span>
+              Kiểm tra đơn hàng
+            </h2>
+            
+            <div className="space-y-4 mb-6">
+              {items.map((item) => (
+                <div key={item.product.id} className="flex gap-3 text-sm">
+                  <div className="relative w-12 h-12 bg-white rounded border overflow-hidden shrink-0">
+                    <Image src={item.product.images[0]} alt="" fill className="object-contain p-1" sizes="48px" />
                   </div>
-                )}
-                <div className="flex justify-between text-slate-600">
-                  <span>Phí vận chuyển</span>
-                  <span>{shippingFee === 0 ? "Miễn phí" : formatPrice(shippingFee)}</span>
+                  <div className="flex-1 overflow-hidden">
+                    <p className="font-medium line-clamp-1">{item.product.name}</p>
+                    <p className="text-muted-foreground text-xs mt-1">SL: {item.quantity}</p>
+                  </div>
+                  <div className="font-medium shrink-0">
+                    {formatPrice(item.price * item.quantity)}
+                  </div>
                 </div>
-              </div>
-
-              <div className="flex justify-between items-center py-4 border-t mb-6">
-                <span className="text-lg font-bold">Tổng thanh toán</span>
-                <span className="text-2xl font-bold text-primary">{formatPrice(finalTotal)}</span>
-              </div>
-
-              <button 
-                type="submit"
-                disabled={isSubmitting}
-                className="w-full py-4 bg-primary text-white rounded-2xl font-bold text-lg hover:shadow-lg hover:shadow-primary/30 transition-all disabled:opacity-50 flex items-center justify-center gap-2"
-              >
-                {isSubmitting ? <Loader2 className="animate-spin" /> : null}
-                {isSubmitting ? "Đang xử lý đơn hàng..." : "Xác nhận đặt hàng"}
-              </button>
-              
-              <p className="text-center text-xs text-slate-400 mt-4">
-                Bằng cách nhấn đặt hàng, bạn đồng ý với Điều khoản dịch vụ của chúng tôi.
-              </p>
+              ))}
             </div>
+
+            <div className="space-y-3 text-sm border-y py-4 mb-4">
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">Tạm tính:</span>
+                <span className="font-medium">{formatPrice(subtotal)}</span>
+              </div>
+              
+              {discountAmount > 0 && (
+                <div className="flex justify-between items-center text-green-600">
+                  <span>Giảm giá:</span>
+                  <span>-{formatPrice(discountAmount)}</span>
+                </div>
+              )}
+
+              <div className="flex justify-between">
+                <span className="text-muted-foreground">Phí vận chuyển:</span>
+                <span className="font-medium">{shippingFee === 0 ? "Miễn phí" : formatPrice(shippingFee)}</span>
+              </div>
+            </div>
+
+            <div className="flex justify-between items-end mb-6">
+              <span className="font-bold">Tổng cộng:</span>
+              <span className="text-2xl font-bold text-primary">{formatPrice(finalTotal)}</span>
+            </div>
+            
+            <button 
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full py-4 bg-primary text-primary-foreground rounded-xl font-bold hover:bg-primary/90 transition-colors disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+            >
+              {isSubmitting ? (
+                <>
+                  <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                  Đang xử lý...
+                </>
+              ) : (
+                "Hoàn tất đặt hàng"
+              )}
+            </button>
           </div>
-        </form>
-      </div>
+        </div>
+      </form>
     </div>
   );
 }
