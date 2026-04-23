@@ -2,18 +2,16 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useCallback } from "react";
-import { Star, ShoppingCart } from "lucide-react";
 import { Product } from "@/lib/data";
 import { formatPrice } from "@/lib/utils";
+import { Star, ShoppingCart } from "lucide-react";
 import { Badge } from "@/components/ui/Badge";
 import { useCartStore } from "@/stores/cartStore";
 import { useToastStore } from "@/stores/toastStore";
 import { useAuthStore } from "@/stores/authStore";
 import { useRouter } from "next/navigation";
 
-/** * Highlight từ khóa tìm kiếm trong text 
- */
+/** Highlight từ khóa tìm kiếm trong text */
 function HighlightText({ text, query }: { text: string; query?: string }) {
   if (!query || !query.trim()) return <>{text}</>;
 
@@ -41,119 +39,106 @@ function HighlightText({ text, query }: { text: string; query?: string }) {
   );
 }
 
-interface ProductCardProps {
+export function ProductCard({
+  product,
+  searchQuery,
+}: {
   product: Product;
   searchQuery?: string;
-}
-
-export function ProductCard({ product, searchQuery }: ProductCardProps) {
+}) {
   const { addItem } = useCartStore();
   const { addToast } = useToastStore();
   const { isLoggedIn } = useAuthStore();
   const router = useRouter();
 
-  // Tính toán phần trăm giảm giá
   const discount = product.originalPrice
     ? Math.round((1 - product.price / product.originalPrice) * 100)
     : 0;
 
-  // Xử lý thêm vào giỏ hàng
-  const handleAddToCart = useCallback(
-    (e: React.MouseEvent) => {
-      e.preventDefault(); // Ngăn chặn Link nhảy trang
-      e.stopPropagation(); // Ngăn chặn các sự kiện click lồng nhau
-
-      if (!isLoggedIn) {
-        addToast({
-          title: "Yêu cầu đăng nhập",
-          description: "Vui lòng đăng nhập để có thể thêm sản phẩm vào giỏ.",
-          type: "error",
-        });
-        router.push("/login");
-        return;
-      }
-
-      addItem(product, 1, product.price);
+  const handleAddToCart = (e: React.MouseEvent) => {
+    e.preventDefault();
+    if (!isLoggedIn) {
       addToast({
-        title: "Thành công",
-        description: `Đã thêm ${product.name} vào giỏ hàng.`,
-        type: "success",
+        title: "Yêu cầu đăng nhập",
+        description: "Vui lòng đăng nhập để có thể thêm sản phẩm vào giỏ.",
+        type: "error",
       });
-    },
-    [isLoggedIn, product, addItem, addToast, router]
-  );
+      router.push("/login");
+      return;
+    }
+    
+    addItem(product, 1, product.price);
+    addToast({
+      title: "Thêm vào giỏ thành công",
+      description: `${product.name} đã được thêm vào giỏ hàng.`,
+      type: "success",
+    });
+  };
 
   return (
     <Link
       href={`/products/${product.slug}`}
-      className="group flex flex-col bg-card rounded-2xl overflow-hidden border border-border/40 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 ease-out"
+      className="group flex flex-col bg-card rounded-2xl md:rounded-3xl overflow-hidden border border-border/40 hover:shadow-md hover:-translate-y-1 transition-all duration-200"
     >
-      {/* Hình ảnh sản phẩm */}
-      <div className="relative aspect-square bg-secondary/20 overflow-hidden">
-        {/* Badges */}
-        <div className="absolute top-2 left-2 z-10 flex flex-col gap-1">
-          {discount > 0 && (
-            <Badge variant="accent" className="bg-red-500 text-white border-none shadow-sm">
-              -{discount}%
-            </Badge>
-          )}
-          {product.bulkPricing && product.bulkPricing.length > 0 && (
-            <Badge className="bg-blue-600 text-white border-none shadow-sm">
-              Giá sỉ
-            </Badge>
-          )}
-        </div>
-
-        <Image
-          src={product.images[0]}
-          alt={product.name}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-110"
-          priority={false}
-        />
-        
-        {/* Overlay nút mua nhanh trên Desktop */}
-        <div className="hidden md:flex absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 items-center justify-center">
-           {/* Bạn có thể thêm nút "Xem nhanh" ở đây nếu muốn */}
+      <div className="relative aspect-[4/3] sm:aspect-square bg-secondary/30 dark:bg-secondary/20 overflow-hidden">
+        {discount > 0 && (
+          <Badge
+            variant="accent"
+            className="absolute top-3 left-3 z-10"
+          >
+            -{discount}%
+          </Badge>
+        )}
+        {product.bulkPricing && product.bulkPricing.length > 0 && (
+          <Badge variant="accent" className="absolute top-3 right-3 z-10">
+            Có giá sỉ
+          </Badge>
+        )}
+        <div className="relative w-full h-full">
+          <Image
+            src={product.images[0]}
+            alt={product.name}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover group-hover:scale-105 transition-transform duration-200"
+          />
         </div>
       </div>
 
-      {/* Thông tin sản phẩm */}
-      <div className="p-4 flex flex-col flex-1">
-        <h3 className="font-medium text-sm md:text-base leading-tight line-clamp-2 mb-2 group-hover:text-primary transition-colors min-h-[2.5rem]">
+      <div className="p-5 md:p-6 flex flex-col flex-1">
+        <h3 className="font-semibold text-base leading-snug line-clamp-2 mb-3 group-hover:text-primary transition-colors">
           <HighlightText text={product.name} query={searchQuery} />
         </h3>
 
-        {/* Đánh giá */}
         <div className="flex items-center gap-1 mb-3">
-          <Star className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
-          <span className="text-xs font-semibold">{product.rating}</span>
-          <span className="text-[10px] text-muted-foreground uppercase tracking-wider">
-            ({product.reviewCount} đánh giá)
+          <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+          <span className="text-sm font-medium">{product.rating}</span>
+          <span className="text-xs text-muted-foreground">
+            ({product.reviewCount})
           </span>
         </div>
 
-        {/* Giá và Nút thêm */}
-        <div className="mt-auto flex items-center justify-between gap-2">
-          <div className="flex flex-col">
-            <span className="font-bold text-base md:text-lg text-primary">
+        <div className="mt-auto flex items-end justify-between">
+          <div>
+            <div className="font-heading font-bold text-lg text-foreground group-hover:text-primary transition-colors">
               {formatPrice(product.price)}
-            </span>
+            </div>
             {product.originalPrice && (
-              <span className="text-xs text-muted-foreground line-through decoration-red-400/50">
+              <div className="text-xs text-muted-foreground line-through">
                 {formatPrice(product.originalPrice)}
-              </span>
+              </div>
             )}
           </div>
 
-          <button
-            onClick={handleAddToCart}
-            className="inline-flex items-center justify-center p-2.5 rounded-xl bg-primary text-primary-foreground shadow-lg shadow-primary/20 hover:bg-primary/90 active:scale-95 transition-all"
-            title="Thêm vào giỏ hàng"
-          >
-            <ShoppingCart className="h-5 w-5" />
-          </button>
+          <div className="opacity-0 translate-y-2 md:group-hover:opacity-100 md:group-hover:translate-y-0 transition-all duration-200 absolute md:relative bottom-4 right-4 md:bottom-auto md:right-auto">
+            <button
+              onClick={handleAddToCart}
+              className="p-3 md:p-2.5 lg:p-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 transition-all duration-200 shadow-sm"
+              aria-label="Thêm vào giỏ"
+            >
+              <ShoppingCart className="h-5 w-5" />
+            </button>
+          </div>
         </div>
       </div>
     </Link>
