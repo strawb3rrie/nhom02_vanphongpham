@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAFAFB;      
+  --foreground: #1e293b;      
+
+  --primary: #DC143C;         
+  --primary-foreground: #ffffff;
+
+  --secondary: #F5F1E8;       
+  --secondary-foreground: #DC143C;
+
+  --accent: #F59E0B;          
+  --accent-foreground: #ffffff;
+
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+
+  --card: #ffffff;
+  --card-foreground: #1e293b;
+
+  --border: #f3f4f6;
+  --ring: #DC143C;
+
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+
+  --radius: 1rem;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #0f172a; 
+  --foreground: #f8fafc;
+
+  --primary: #84B4C8;
+  --primary-foreground: #0f172a;
+
+  --secondary: #1e293b;
+  --secondary-foreground: #f8fafc;
+
+  --accent: #B2D9EA;
+  --accent-foreground: #0f172a;
+
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+
+  --card: #1e293b;
+  --card-foreground: #f8fafc;
+
+  --border: #334155;
+  --ring: #84B4C8;
+
+  --destructive: #7f1d1d;
+  --destructive-foreground: #f8fafc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-ring: var(--ring);
+
+  --font-sans: var(--font-be-vietnam-pro), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+  option {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+}
+
+/* Custom premium selection */
+::selection {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}
+
+@layer utilities {
+  /* Light mode: Red hover */
+  html:not(.dark) .hover\:bg-primary\/90:hover,
+  html:not(.dark) .hover\:bg-primary\/80:hover,
+  html:not(.dark) .hover\:bg-primary\/95:hover {
+    background-color: #B91C1C !important;
+  }
+
+  /* Dark mode: Brighter hover (Sáng lên) */
+  .dark .hover\:bg-primary\/90:hover,
+  .dark .hover\:bg-primary\/80:hover,
+  .dark .hover\:bg-primary\/95:hover {
+    background-color: #9ED0E6 !important;
+  }
+}

@@ -25,5 +25,23 @@
     "description": "Giảm 15% cho học sinh, sinh viên với thẻ.",
     "minOrderValue": 200000,
     "validUntil": "2026-09-30T23:59:59Z"
+  },
+  {
+    "id": 4,
+    "code": "FLASH20",
+    "discountPercent": 20,
+    "title": "Flash Sale cuối tuần",
+    "description": "Giảm 20% cho tất cả sản phẩm trong 48h.",
+    "minOrderValue": 300000,
+    "validUntil": "2026-06-30T23:59:59Z"
+  },
+  {
+    "id": 5,
+    "code": "COMBO50K",
+    "discountAmount": 50000,
+    "title": "Giảm ngay 50K",
+    "description": "Giảm trực tiếp 50.000đ cho đơn từ 400k.",
+    "minOrderValue": 400000,
+    "validUntil": "2026-11-30T23:59:59Z"
   }
 ]
