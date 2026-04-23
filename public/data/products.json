@@ -6,11 +6,9 @@
     "category": "but-viet",
     "price": 10000,
     "images": [
-      "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1600751550112-4209be589cbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
-    ],
-    "description": "Bút bi mực nước với ngòi mảnh 0.5mm, cho nét chữ thanh thoát và đều mực.",
+  "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?auto=format&fit=crop&w=800&q=80"
+],
+"description": "Bút bi mực nước với ngòi mảnh 0.5mm, cho nét chữ thanh thoát và đều mực.",
     "specs": {
       "Thương hiệu": "Thiên Long",
       "Kích thước ngòi": "0.5 mm"
@@ -37,10 +35,10 @@
     "category": "but-viet",
     "price": 25000,
     "images": [
-      "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1581431886211-6b932f8367f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1649019489428-70f505daacd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
-    ],
+  "https://images.unsplash.com/photo-1722669476245-aaa60d74bc4c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1699027833664-5b66d8d3e762?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "https://images.unsplash.com/photo-1640545231793-ae270a9f1030?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+],
     "description": "Bút gel cao cấp từ Pentel, mực mau khô cực kỳ thích hợp.",
     "specs": {
       "Thương hiệu": "Pentel",
@@ -64,9 +62,9 @@
     "category": "but-viet",
     "price": 45000,
     "images": [
-      "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1483546416237-76fd26bbcdd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8bm90ZWJvb2t8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fGZvbGRlcnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1641561368812-9b3b23422d2e?q=80&w=1096&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1732445486805-a84ad9314ef6?q=80&w=1303&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1732445486455-29fd13f560a1?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Bút chì kim thiết kế sang trọng, bọc đệm cao su êm ái.",
     "specs": {
@@ -85,9 +83,8 @@
     "category": "but-viet",
     "price": 18000,
     "images": [
-      "https://images.unsplash.com/photo-1585997631913-896180ae8acb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1623697899811-f2403f50685e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1654931800100-2ecf6eee7c64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1693589211286-5766553fb3c7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFya2VyJTIwcGVufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1561117089-3fb7c944887f?q=80&w=784&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Màu mực sáng, bắt mắt, không làm lem chữ in. Đầu vát thông minh.",
     "specs": {
@@ -106,9 +103,8 @@
     "category": "but-viet",
     "price": 12000,
     "images": [
-      "https://images.unsplash.com/photo-1455390582262-044cdead277a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1554757387-fa0367573d09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1607703703674-df96af81dffa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1581094787965-53e07f34bb6f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Bút dạ viết bảng trắng cực dễ lau, nét viết đậm rực rỡ.",
     "specs": {
@@ -133,9 +129,9 @@
     "category": "but-viet",
     "price": 550000,
     "images": [
-      "https://images.unsplash.com/photo-1518674660708-0e2c0473e68e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1599008633840-052c7f756385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1501959181532-7d2a3c064642?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509824189536-24ab5d1ecb00?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1518674660708-0e2c0473e68e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8cGVufGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
     ],
     "description": "Bút máy quốc dân từ Đức, dễ cầm, ngòi trơn mượt không tắc mực.",
     "specs": {
@@ -154,9 +150,9 @@
     "category": "but-viet",
     "price": 22000,
     "images": [
-      "https://images.unsplash.com/photo-1448471237638-f8ccc7d5ac9d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1591195852468-03a01d1375d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fG5vdGVib29rfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1587145716981-d97565ef76d4?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.pexels.com/photos/5412281/pexels-photo-5412281.jpeg",
+      "https://images.pexels.com/photos/5412239/pexels-photo-5412239.jpeg"
     ],
     "description": "Bút xóa kéo dính chắc, độ che phủ hoàn hảo 1 cuộn 12 met.",
     "specs": {
@@ -175,9 +171,9 @@
     "category": "but-viet",
     "price": 5000,
     "images": [
-      "https://images.unsplash.com/photo-1601321268954-22646044f7d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1557487307-8dc8ec048eb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1510070009289-b5bc34383727?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1595584354232-f07d525d87c1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1667687435942-4fdff73a3ed6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1603372715989-400893cb6081?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Bút chì gỗ cao cấp ngòi chuốt không gãy, dễ tẩy.",
     "specs": {
@@ -203,10 +199,8 @@
     "price": 45000,
     "originalPrice": 50000,
     "images": [
-      "https://images.unsplash.com/photo-1531087131490-07836ca4341d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTJ8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1698067942087-53f552fe2f59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1506188232657-23c9c893ac2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8b2ZmaWNlJTIwc3VwcGxpZXN8ZW58MHx8fHwxNzc2NTY5NDU2fDA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
-    ],
+      "https://images.unsplash.com/photo-1661472093418-fa5f54c5fe4f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1679785587485-eb2f9a6d5996?q=80&w=1197&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"    ],
     "description": "Bộ bút lông tô màu 12 cây, an toàn cho trẻ em.",
     "specs": {
       "Thương hiệu": "Thiên Long",
@@ -219,14 +213,12 @@
   },
   {
     "id": 10,
-    "name": "Bộ Dạ Quang Pastel To",
-    "slug": "bo-da-quang-pastel-to-10",
+    "name": "Bộ Dạ Quang Pastel",
+    "slug": "bo-da-quang-pastel-10",
     "category": "but-viet",
     "price": 85000,
     "images": [
-      "https://images.unsplash.com/photo-1587303988571-c5563c0bceab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fHBlbnxlbnwwfHx8fDE3NzY1Njk0NTZ8MA&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1648822145238-16e13a1591da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8Zm9sZGVyfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1523289333742-be1143f6b766?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fG9mZmljZSUyMHN1cHBsaWVzfGVufDB8fHx8MTc3NjU2OTQ1Nnww&ixlib=rb-4.1.0&q=80&w=800&q=80&auto=format&fit=crop"
+      "https://images.pexels.com/photos/6193762/pexels-photo-6193762.jpeg"
     ],
     "description": "Bộ highlight nhiều màu pastel nhạt cho tín đồ trang trí planner.",
     "specs": {
@@ -245,9 +237,8 @@
     "category": "so-tay",
     "price": 120000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1594304888440-48cd07c764cd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1569414030664-99f5b89aff1f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Sổ còng đa năng có thể lấy và chèn giấy tuỳ ý, bìa nhựa mờ.",
     "specs": {
@@ -267,17 +258,16 @@
   },
   {
     "id": 12,
-    "name": "Sổ A5 Da Mềm Moleskine",
-    "slug": "so-a5-da-mem-moleskine-12",
+    "name": "Sổ A5",
+    "slug": "so-a5-12",
     "category": "so-tay",
     "price": 250000,
     "originalPrice": 280000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1689068721962-55538d1b6fa6?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1689068724464-4fb932477e97?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "description": "Sổ da nhập khẩu, trải nghiệm viết hoàn hảo, chống thấm mực.",
+    "description": "Sổ dày, trải nghiệm viết hoàn hảo, chống thấm mực.",
     "specs": {
       "Thương hiệu": "Moleskine",
       "Số trang": "192 trang"
@@ -294,9 +284,9 @@
     "category": "so-tay",
     "price": 8000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1620275765334-4ed948bb4502?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1695131020187-d3dcdab5016b?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1531346878377-a5be20888e57?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Tập học sinh thiết kế hoạt hình, giấy trắng tự nhiên.",
     "specs": {
@@ -321,9 +311,9 @@
     "category": "so-tay",
     "price": 45000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1585811759562-a30733b277f1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1554757387-fa0367573d09?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1552659063-e307a4932814?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Giấy chất lượng Nhật Bản, gáy lò xo cứng cáp.",
     "specs": {
@@ -342,9 +332,7 @@
     "category": "so-tay",
     "price": 25000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1587145820137-a9dbc8c5ed99?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Giấy note dạ quang pastel bám dính cực nhạy dành cho dân văn phòng.",
     "specs": {
@@ -369,10 +357,9 @@
     "category": "so-tay",
     "price": 18000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
-    ],
+  "/giay-danh-chi-muc-ke-dong.jpg",
+  "/giay-danh-chi-muc-ke-dong(1).jpg"
+],
     "description": "Giấy ghi chú dán lề phân loại hồ sơ dính chắc không rách.",
     "specs": {
       "Chất liệu": "Giấy Kraft hoặc dạ quang",
@@ -391,10 +378,10 @@
     "price": 150000,
     "originalPrice": 180000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
-    ],
+  "/so-dot-grid-planner.jpg",
+  "/so-dot-grid-planner(1).jpg",
+  "/so-dot-grid-planner(2).jpg"
+],
     "description": "Sổ Bullet Journal chuyên dành cho người thích sáng tạo sổ sách.",
     "specs": {
       "Thương hiệu": "Crab",
@@ -412,9 +399,8 @@
     "category": "so-tay",
     "price": 32000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1664735245698-b05abf000d4c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1664735245429-a04cfd33024c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Giấy note có dán dính và hoàn toàn trong suốt để đọc được chữ bên dưới.",
     "specs": {
@@ -433,9 +419,8 @@
     "category": "so-tay",
     "price": 185000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/so-tay-khoa-keo.jpg",
+  "/so-tay-khoa-keo(1).jpg"
     ],
     "description": "Sổ tay da có dây kéo để chứa card, tiền, thẻ. Thích hợp đi học.",
     "specs": {
@@ -454,9 +439,8 @@
     "category": "so-tay",
     "price": 75000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/tap-ve-sketbook.jpg",
+  "/tap-ve-sketbook(1).jpg"
     ],
     "description": "Tập giấy vẽ bản rộng thích hợp cho phác thảo kiến trúc mĩ thuật.",
     "specs": {
@@ -476,9 +460,9 @@
     "price": 35000,
     "originalPrice": 45000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1768158989131-64cbff67f292?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1743959866769-5c469c1a2a31?q=80&w=737&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Bìa còng lưu trữ hàng nghìn tờ tài liệu, khoá sắt chắc chắn.",
     "specs": {
@@ -503,9 +487,8 @@
     "category": "bia-ho-so",
     "price": 65000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/kep-trinh-ky-da.jpg",
+  "/kep-trinh-ky-da(1).jpg"
     ],
     "description": "Mẫu bìa trình ký dành riêng cho quản lý hoặc các sự kiện ký hợp đồng chuyên nghiệp.",
     "specs": {
@@ -524,9 +507,8 @@
     "category": "bia-ho-so",
     "price": 45000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/bia-lo-dung-ho-so.jpg",
+  "/bia-lo-dung-ho-so(1).jpg"
     ],
     "description": "Xấp bìa lỗ nilon trong suốt, dày và dẻo dùng nhiều trong lưu hồ sơ.",
     "specs": {
@@ -551,9 +533,7 @@
     "category": "bia-ho-so",
     "price": 5000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/bia-nut-vang-trong-suot.jpg"
     ],
     "description": "Bìa túi cúc bấm tiện mang tài liệu nháp.",
     "specs": {
@@ -578,9 +558,8 @@
     "category": "bia-ho-so",
     "price": 35000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/so-luu-tru-name-card.jpg",
+  "/so-luu-tru-name-card(1).jpg"
     ],
     "description": "Sổ nilon nhiều ngăn chứa danh thiếp an toàn và thẩm mỹ.",
     "specs": {
@@ -594,14 +573,13 @@
   },
   {
     "id": 26,
-    "name": "Khay Cắm Bút 3 Tầng Lưới",
-    "slug": "khay-cam-but-3-tang-luoi-26",
+    "name": "Khay Cắm Bút Lưới",
+    "slug": "khay-cam-but-luoi-26",
     "category": "bia-ho-so",
     "price": 40000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1767116291082-8a34a33554d9?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1685629744314-b4a7d13c4621?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Lưới sắt tĩnh điện màu đen đựng nhiều bút chống đổ.",
     "specs": {
@@ -621,11 +599,9 @@
     "price": 55000,
     "originalPrice": 60000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1709159057304-2f4d5c9fb37e?q=80&w=1203&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "description": "Khối chặn sách L kim loại cứng cáp không làm xô lệch kệ.",
+    "description": "Khối chặn sách L gỗ cứng cáp không làm xô lệch kệ.",
     "specs": {
       "Kích thước": "Lớn",
       "Đóng gói": "2 chiếc/bộ"
@@ -642,14 +618,11 @@
     "category": "bia-ho-so",
     "price": 95000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/bang-kep-mica.jpg"
     ],
     "description": "Bảng trình ký mica siêu to A3 dùng trong trình ký xây dựng.",
     "specs": {
-      "Chất liệu": "Mica dẻo",
-      "Màu": "Trong"
+      "Chất liệu": "Mica dẻo"
     },
     "rating": 4.1,
     "reviewCount": 7,
@@ -663,9 +636,7 @@
     "category": "bia-ho-so",
     "price": 28000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+  "/bia-3-day-cot-nhua.jpg"
     ],
     "description": "Bìa cột chứng từ kế toán 15cm cứng cáp.",
     "specs": {
@@ -684,9 +655,7 @@
     "category": "bia-ho-so",
     "price": 15000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1633175515406-4ad73a6e4644?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Kẹp tài liệu 32mm cho xấp 100 tờ giấy nhẹ nhàng.",
     "specs": {
@@ -711,9 +680,8 @@
     "category": "dung-cu-hoc-tap",
     "price": 32000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1559743341-7fef133c7c6a?q=80&w=1085&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1768220365838-c74bc16b8f08?q=80&w=1329&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Máy dập ghim nhỏ gọn tiện lợi, kèm theo hộp ghim.",
     "specs": {
@@ -733,9 +701,7 @@
     "price": 680000,
     "originalPrice": 750000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Chiếc máy tính giải cứu thanh xuân học trò.",
     "specs": {
@@ -754,11 +720,10 @@
     "category": "dung-cu-hoc-tap",
     "price": 18000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1668853060178-2d53667b7345?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1668423125266-1f7ba03a8a47?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "description": "Kéo thủ công mũi bo tròn an toàn cho trẻ.",
+    "description": "Kéo thủ công.",
     "specs": {
       "Thương hiệu": "Deli",
       "Kích thước": "12cm"
@@ -781,9 +746,8 @@
     "category": "dung-cu-hoc-tap",
     "price": 25000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1775938327875-3bb1199bcbef?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1775938327962-a4c39967b994?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ym94JTIwY3V0dGVyfGVufDB8fDB8fHww"
     ],
     "description": "Dao rọc tự hãm khóa cao su chống cắt phạm.",
     "specs": {
@@ -802,9 +766,8 @@
     "category": "dung-cu-hoc-tap",
     "price": 45000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1632822300275-9867abf24bbe?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1632822253110-15a6ea9a293c?q=80&w=727&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Hộp đựng dáng thuôn đứng tiện mở trên bàn chật.",
     "specs": {
@@ -823,9 +786,7 @@
     "category": "van-phong-pham-khac",
     "price": 15000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1731575131075-bf333f0194ea?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Cuộn băng dính xốp gắn tường chịu nhiệt.",
     "specs": {
@@ -851,9 +812,7 @@
     "price": 20000,
     "originalPrice": 25000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1663266061780-205958a745c2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Sấp giấy note xé dán đa sắc màu bám lâu.",
     "specs": {
@@ -872,11 +831,9 @@
     "category": "van-phong-pham-khac",
     "price": 85000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1708014114844-8a9c7d6d107e?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    "description": "Con dấu cao su in rõ nét dành cho văn thư.",
+    "description": "Con dấu in rõ nét dành cho văn thư.",
     "specs": {
       "Loại mực": "Đỏ, Xanh",
       "Đặc tính": "Sẵn khay mực"
@@ -894,9 +851,8 @@
     "price": 95000,
     "originalPrice": 105000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1634833650314-ed773bcc5b23?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1630734242390-57d9437c08ab?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Ram 500 tờ giấy trắng sáng chuyên nghiệp.",
     "specs": {
@@ -921,9 +877,8 @@
     "category": "van-phong-pham-khac",
     "price": 450000,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1676276374803-36e48196d5ac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1676276374782-39159bc5e7b4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Bảng viết treo phòng họp khung nhôm viền mỏng mượt mà.",
     "specs": {
@@ -943,9 +898,7 @@
     "price": 120000,
     "originalPrice": 144000,
     "images": [
-      "https://loremflickr.com/800/800/diary,leather?lock=411",
-      "https://loremflickr.com/800/800/diary,leather?lock=412",
-      "https://loremflickr.com/800/800/diary,leather?lock=413"
+  "/so-tich-hop-bia-da.jpg"
     ],
     "description": "Sổ bìa da sang trọng, giấy nhám chống loá.",
     "specs": {
@@ -971,9 +924,7 @@
     "price": 15000,
     "originalPrice": 18000,
     "images": [
-      "https://loremflickr.com/800/800/notebook,school?lock=421",
-      "https://loremflickr.com/800/800/notebook,school?lock=422",
-      "https://loremflickr.com/800/800/notebook,school?lock=423"
+  "/vo-campus-ke-ngang.jpg"
     ],
     "description": "Vở học sinh, sinh viên gáy ép keo Nhật Bản.",
     "specs": {
@@ -999,11 +950,10 @@
     "price": 35000,
     "originalPrice": 42000,
     "images": [
-      "https://loremflickr.com/800/800/notepad,spiral?lock=431",
-      "https://loremflickr.com/800/800/notepad,spiral?lock=432",
-      "https://loremflickr.com/800/800/notepad,spiral?lock=433"
+  "/so-lo-xo-a5-kho-nho.jpg",
+  "/so-lo-xo-a5-kho-nho(1).jpg"
     ],
-    "description": "Tiện dụng bỏ túi, xoay 360 độ.",
+    "description": "Tiện dụng bỏ túi gọn nhẹ",
     "specs": {
       "Thương hiệu": "OEM",
       "Xuất xứ": "Đang cập nhật"
@@ -1027,9 +977,7 @@
     "price": 650000,
     "originalPrice": 780000,
     "images": [
-      "https://loremflickr.com/800/800/calculator,math?lock=441",
-      "https://loremflickr.com/800/800/calculator,math?lock=442",
-      "https://loremflickr.com/800/800/calculator,math?lock=443"
+  "/may-tinh-casio-fx-580vn.jpg"
     ],
     "description": "Máy tính bấm dành riêng cho học sinh cấp 3, thi THPT.",
     "specs": {
@@ -1055,9 +1003,7 @@
     "price": 8000,
     "originalPrice": 10000,
     "images": [
-      "https://loremflickr.com/800/800/ruler,stationery?lock=451",
-      "https://loremflickr.com/800/800/ruler,stationery?lock=452",
-      "https://loremflickr.com/800/800/ruler,stationery?lock=453"
+      "https://loremflickr.com/800/800/ruler,stationery?lock=451"
     ],
     "description": "Thước nhựa dẻo, vạch chia rõ ràng.",
     "specs": {
@@ -1083,8 +1029,6 @@
     "price": 25000,
     "originalPrice": 30000,
     "images": [
-      "https://loremflickr.com/800/800/compass,drafting?lock=461",
-      "https://loremflickr.com/800/800/compass,drafting?lock=462",
       "https://loremflickr.com/800/800/compass,drafting?lock=463"
     ],
     "description": "Compa linh hoạt vẽ vòng chuẩn xác.",
@@ -1111,9 +1055,8 @@
     "price": 180000,
     "originalPrice": 216000,
     "images": [
-      "https://loremflickr.com/800/800/desk,organizer?lock=471",
-      "https://loremflickr.com/800/800/desk,organizer?lock=472",
-      "https://loremflickr.com/800/800/desk,organizer?lock=473"
+  "/khay-dung-ho-so-3-tang.jpg",
+  "/khay-dung-ho-so-3-tang(1).jpg"
     ],
     "description": "Khay tài liệu sơn tĩnh điện đen.",
     "specs": {
@@ -1139,9 +1082,7 @@
     "price": 12000,
     "originalPrice": 14000,
     "images": [
-      "https://loremflickr.com/800/800/paperclips,binder?lock=481",
-      "https://loremflickr.com/800/800/paperclips,binder?lock=482",
-      "https://loremflickr.com/800/800/paperclips,binder?lock=483"
+  "/hop-kep-buom-chong-thung-15mm.jpg"
     ],
     "description": "Dùng để kẹp lượng tài liệu lớn gọn gàng.",
     "specs": {
@@ -1167,8 +1108,7 @@
     "price": 42000,
     "originalPrice": 50000,
     "images": [
-      "https://loremflickr.com/800/800/scissors,desk?lock=491",
-      "https://loremflickr.com/800/800/scissors,desk?lock=492",
+      "https://images.unsplash.com/photo-1668853060178-2d53667b7345?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "https://loremflickr.com/800/800/scissors,desk?lock=493"
     ],
     "description": "Lưỡi kéo thép không gỉ.",
@@ -1195,9 +1135,8 @@
     "price": 75000,
     "originalPrice": 90000,
     "images": [
-      "https://loremflickr.com/800/800/paper,stack?lock=501",
-      "https://loremflickr.com/800/800/paper,stack?lock=502",
-      "https://loremflickr.com/800/800/paper,stack?lock=503"
+  "/ram-giay-in-double-a-a4.jpg",
+  "/ram-giay-in-double-a-a4(1).jpg"
     ],
     "description": "Chất lượng giấy in bền dai số 1.",
     "specs": {
@@ -1223,9 +1162,7 @@
     "price": 62000,
     "originalPrice": 74000,
     "images": [
-      "https://loremflickr.com/800/800/paper,documents?lock=511",
-      "https://loremflickr.com/800/800/paper,documents?lock=512",
-      "https://loremflickr.com/800/800/paper,documents?lock=513"
+  "/ram-giay-in-ik-plus.jpg"
     ],
     "description": "Giấy in phổ thông cho văn phòng.",
     "specs": {
@@ -1251,9 +1188,8 @@
     "price": 45000,
     "originalPrice": 54000,
     "images": [
-      "https://loremflickr.com/800/800/watercolor,paint?lock=521",
-      "https://loremflickr.com/800/800/watercolor,paint?lock=522",
-      "https://loremflickr.com/800/800/watercolor,paint?lock=523"
+  "/hop-mau-nuoc-thien-long.jpg",
+  "/hop-mau-nuoc-thien-long(1).jpg"
     ],
     "description": "Bộ màu nước tặng kèm cọ vẽ cho thiếu nhi.",
     "specs": {
@@ -1279,9 +1215,9 @@
     "price": 30000,
     "originalPrice": 36000,
     "images": [
-      "https://loremflickr.com/800/800/paintbrush,art?lock=531",
-      "https://loremflickr.com/800/800/paintbrush,art?lock=532",
-      "https://loremflickr.com/800/800/paintbrush,art?lock=533"
+      "https://images.unsplash.com/photo-1643414345965-62d1e914a890?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1574703974958-bea8182a7a36?q=80&w=1207&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1703289629597-048cf1a80969?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Cọ lông mềm, vuốt nét chuẩn.",
     "specs": {
@@ -1307,9 +1243,8 @@
     "price": 28000,
     "originalPrice": 34000,
     "images": [
-      "https://loremflickr.com/800/800/clay,modeling?lock=541",
-      "https://loremflickr.com/800/800/clay,modeling?lock=542",
-      "https://loremflickr.com/800/800/clay,modeling?lock=543"
+      "https://images.unsplash.com/photo-1710352461684-55df3f58593c?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1710352461676-4712808516ec?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     "description": "Nặn khô nhanh, an toàn vô độc.",
     "specs": {
