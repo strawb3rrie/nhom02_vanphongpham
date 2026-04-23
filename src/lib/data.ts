@@ -113,7 +113,7 @@ export async function getReviews(productId: number): Promise<Review[]> {
     const reviews = data.default as Review[];
     return reviews.filter(r => r.productId === productId);
   }
-}
+} 
 
 export async function getTeam(): Promise<TeamMember[]> {
   try {
