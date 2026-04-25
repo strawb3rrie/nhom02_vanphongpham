@@ -9,6 +9,7 @@ import { Product, Category } from "@/lib/data";
 import Link from "next/link";
 import { Search, SlidersHorizontal, ArrowUpDown, Star } from "lucide-react";
 import { useState, useEffect, useMemo } from "react";
+import { useSearchParams } from "next/navigation";
 
 const ITEMS_PER_PAGE = 8;
 
@@ -54,14 +55,14 @@ function HighlightText({ text, query }: { text: string; query: string }) {
 export default function ProductsPageClient({
   initialProducts,
   categories,
-  categoryParam,
-  queryParam,
 }: {
   initialProducts: Product[];
   categories: Category[];
-  categoryParam?: string;
-  queryParam?: string;
 }) {
+  const searchParams = useSearchParams();
+  const categoryParam = searchParams.get("category") || undefined;
+  const queryParam = searchParams.get("q") || undefined;
+
   const [currentPage, setCurrentPage] = useState(1);
   const [sortBy, setSortBy] = useState<SortOption>("default");
   const [priceRange, setPriceRange] = useState(0);
