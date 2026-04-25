@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ShoppingCart, User, Menu, X, Search, LogOut, FileText, Settings, ChevronDown } from "lucide-react";
 import { ROUTES, SITE_CONFIG } from "@/lib/constants";
+import { getAssetPath } from "@/lib/utils";
 import { ThemeToggle } from "./ThemeToggle";
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
@@ -24,20 +25,19 @@ export function Header() {
   const { items } = useCartStore();
   const { user, isLoggedIn, logout } = useAuthStore();
   
-  const cartCount = items.reduce((sum: any, item: { quantity: any; }) => sum + item.quantity, 0);
+  const cartCount = items.reduce((sum, item) => sum + item.quantity, 0);
   const debouncedQuery = useDebounce(searchQuery, 300);
 
   // Fetch search suggestions
   useEffect(() => {
     if (debouncedQuery.trim().length < 2) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
       setSuggestions([]);
       return;
     }
 
     const fetchSuggestions = async () => {
       try {
-        const res = await fetch("/data/products.json");
+        const res = await fetch(getAssetPath("/data/products.json"));
         const products = await res.json();
         const query = debouncedQuery.toLowerCase();
         const matched = products
@@ -105,10 +105,10 @@ export function Header() {
         {/* Logo */}
         <Link
           href={ROUTES.HOME}
-          className="shrink-0 flex items-center gap-2"
+          className="flex-shrink-0 flex items-center gap-2"
         >
           <Image
-            src="/logo.png"
+            src={getAssetPath("/logo.png")}
             alt={SITE_CONFIG.name}
             width={300}
             height={150}
@@ -195,7 +195,7 @@ export function Header() {
                 <div className="bg-primary/10 p-1.5 rounded-full text-primary">
                   <User className="h-4 w-4" />
                 </div>
-                <span className="max-w-30 truncate">{user?.name}</span>
+                <span className="max-w-[120px] truncate">{user?.name}</span>
                 <ChevronDown className={`h-4 w-4 text-muted-foreground transition-transform duration-200 ${showUserMenu ? 'rotate-180' : ''}`} />
               </button>
               

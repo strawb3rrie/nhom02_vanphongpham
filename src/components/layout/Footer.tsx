@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SITE_CONFIG, ROUTES } from "@/lib/constants";
+import { getAssetPath } from "@/lib/utils";
 import { MapPin, Phone, Mail, Globe, MessageCircle, Send } from "lucide-react";
 
 export function Footer() {
@@ -9,7 +10,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Image src="/logo.png" alt={SITE_CONFIG.name} width={400} height={150} style={{ width: "auto" }} className="h-28 md:h-32 w-auto object-contain mb-6" />
+            <Image src={getAssetPath("/logo.png")} alt={SITE_CONFIG.name} width={400} height={150} style={{ width: "auto" }} className="h-28 md:h-32 w-auto object-contain mb-6" />
             <p className="text-muted-foreground mb-6 leading-relaxed">{SITE_CONFIG.description}</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-primary transition-colors" aria-label="Facebook"><Globe className="h-5 w-5" /></a>
