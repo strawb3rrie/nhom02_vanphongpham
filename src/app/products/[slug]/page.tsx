@@ -14,6 +14,13 @@ interface ProductPageProps {
   params: { slug: string };
 }
 
+export async function generateStaticParams() {
+  const products = await getProducts();
+  return products.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
 // Ensure parallel params fetching behavior compatibility with Next.js 15
 export default async function ProductDetailPage({ params }: ProductPageProps) {
   const { slug } = await params;
