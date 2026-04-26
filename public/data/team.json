@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Lê Bảo Hân",
     "mssv": "24126063",
-    "role": "Core Frontend Developer",
+    "role": "Frontend Lead",
     "avatar": "/nhom02_vanphongpham/Le-Bao-Han.jpg",
     "github": "https://github.com/Hanniee211"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Nguyễn Ngọc Bảo Hân",
     "mssv": "24126066",
-    "role": "Frontend Developer",
+    "role": "Backend & Database Developer",
     "avatar": "/nhom02_vanphongpham/Nguyen-Ngoc-Bao-Han.jpg",
     "github": "https://github.com/24126066-hub"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Đặng Khánh Linh",
     "mssv": "24126112",
-    "role": "UI/UX Frontend Developer",
+    "role": "UI/UX Designer & Frontend",
     "avatar": "/nhom02_vanphongpham/Dang-Khanh-Linh.jpg",
     "github": "https://github.com/strawb3rrie"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Trần Thị Bích Loan",
     "mssv": "24126119",
-    "role": "Application Developer",
+    "role": "Fullstack Developer",
     "avatar": "/nhom02_vanphongpham/Tran-Thi-Bich-Loan.jpg",
     "github": "https://github.com/24126119-beep"
   }
