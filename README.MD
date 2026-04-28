@@ -18,7 +18,7 @@ Ngoài ra, hệ thống được thiết kế với giao diện thân thiện, t
 - Link Figma: https://www.figma.com/design/QhxCwHXB8MsKZiaOjSAN80/TKW?node-id=0-1&t=WhoA0maHqkiBusVz-1
 
 
-- Link GitHub:
+- Link GitHub: https://strawb3rrie.github.io/nhom02_vanphongpham/
 
 
 - Hướng dẫn chạy local:
